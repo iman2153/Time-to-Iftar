@@ -13,7 +13,39 @@
 		8CF26A032D489443000CC556 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CF26A022D489443000CC556 /* Preview Assets.xcassets */; };
 		8CF26A052D489443000CC556 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF26A042D489443000CC556 /* Persistence.swift */; };
 		8CF26A082D489443000CC556 /* Time_to_Iftar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CF26A062D489443000CC556 /* Time_to_Iftar.xcdatamodeld */; };
+		8CF26A152D4894BE000CC556 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF26A142D4894BE000CC556 /* WidgetKit.framework */; };
+		8CF26A172D4894BE000CC556 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF26A162D4894BE000CC556 /* SwiftUI.framework */; };
+		8CF26A1A2D4894BE000CC556 /* Time_to_Iftar_WidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF26A192D4894BE000CC556 /* Time_to_Iftar_WidgetBundle.swift */; };
+		8CF26A1C2D4894BE000CC556 /* Time_to_Iftar_WidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF26A1B2D4894BE000CC556 /* Time_to_Iftar_WidgetLiveActivity.swift */; };
+		8CF26A1E2D4894BE000CC556 /* Time_to_Iftar_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF26A1D2D4894BE000CC556 /* Time_to_Iftar_Widget.swift */; };
+		8CF26A202D4894BE000CC556 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF26A1F2D4894BE000CC556 /* AppIntent.swift */; };
+		8CF26A222D4894BF000CC556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CF26A212D4894BF000CC556 /* Assets.xcassets */; };
+		8CF26A262D4894BF000CC556 /* Time to Iftar WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8CF26A122D4894BE000CC556 /* Time to Iftar WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CF26A242D4894BF000CC556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CF269F02D489442000CC556 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CF26A112D4894BE000CC556;
+			remoteInfo = "Time to Iftar WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8CF26A2A2D4894BF000CC556 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8CF26A262D4894BF000CC556 /* Time to Iftar WidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8CF269F82D489442000CC556 /* Time to Iftar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time to Iftar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -23,6 +55,15 @@
 		8CF26A022D489443000CC556 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8CF26A042D489443000CC556 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		8CF26A072D489443000CC556 /* Time_to_Iftar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Time_to_Iftar.xcdatamodel; sourceTree = "<group>"; };
+		8CF26A122D4894BE000CC556 /* Time to Iftar WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Time to Iftar WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF26A142D4894BE000CC556 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		8CF26A162D4894BE000CC556 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		8CF26A192D4894BE000CC556 /* Time_to_Iftar_WidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_to_Iftar_WidgetBundle.swift; sourceTree = "<group>"; };
+		8CF26A1B2D4894BE000CC556 /* Time_to_Iftar_WidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_to_Iftar_WidgetLiveActivity.swift; sourceTree = "<group>"; };
+		8CF26A1D2D4894BE000CC556 /* Time_to_Iftar_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_to_Iftar_Widget.swift; sourceTree = "<group>"; };
+		8CF26A1F2D4894BE000CC556 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		8CF26A212D4894BF000CC556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CF26A232D4894BF000CC556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +74,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CF26A0F2D4894BE000CC556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF26A172D4894BE000CC556 /* SwiftUI.framework in Frameworks */,
+				8CF26A152D4894BE000CC556 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -40,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				8CF269FA2D489442000CC556 /* Time to Iftar */,
+				8CF26A182D4894BE000CC556 /* Time to Iftar Widget */,
+				8CF26A132D4894BE000CC556 /* Frameworks */,
 				8CF269F92D489442000CC556 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				8CF269F82D489442000CC556 /* Time to Iftar.app */,
+				8CF26A122D4894BE000CC556 /* Time to Iftar WidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +126,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		8CF26A132D4894BE000CC556 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CF26A142D4894BE000CC556 /* WidgetKit.framework */,
+				8CF26A162D4894BE000CC556 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CF26A182D4894BE000CC556 /* Time to Iftar Widget */ = {
+			isa = PBXGroup;
+			children = (
+				8CF26A192D4894BE000CC556 /* Time_to_Iftar_WidgetBundle.swift */,
+				8CF26A1B2D4894BE000CC556 /* Time_to_Iftar_WidgetLiveActivity.swift */,
+				8CF26A1D2D4894BE000CC556 /* Time_to_Iftar_Widget.swift */,
+				8CF26A1F2D4894BE000CC556 /* AppIntent.swift */,
+				8CF26A212D4894BF000CC556 /* Assets.xcassets */,
+				8CF26A232D4894BF000CC556 /* Info.plist */,
+			);
+			path = "Time to Iftar Widget";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,15 +158,34 @@
 				8CF269F42D489442000CC556 /* Sources */,
 				8CF269F52D489442000CC556 /* Frameworks */,
 				8CF269F62D489442000CC556 /* Resources */,
+				8CF26A2A2D4894BF000CC556 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8CF26A252D4894BF000CC556 /* PBXTargetDependency */,
 			);
 			name = "Time to Iftar";
 			productName = "Time to Iftar";
 			productReference = 8CF269F82D489442000CC556 /* Time to Iftar.app */;
 			productType = "com.apple.product-type.application";
+		};
+		8CF26A112D4894BE000CC556 /* Time to Iftar WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF26A272D4894BF000CC556 /* Build configuration list for PBXNativeTarget "Time to Iftar WidgetExtension" */;
+			buildPhases = (
+				8CF26A0E2D4894BE000CC556 /* Sources */,
+				8CF26A0F2D4894BE000CC556 /* Frameworks */,
+				8CF26A102D4894BE000CC556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Time to Iftar WidgetExtension";
+			productName = "Time to Iftar WidgetExtension";
+			productReference = 8CF26A122D4894BE000CC556 /* Time to Iftar WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -104,6 +198,9 @@
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					8CF269F72D489442000CC556 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					8CF26A112D4894BE000CC556 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
@@ -122,6 +219,7 @@
 			projectRoot = "";
 			targets = (
 				8CF269F72D489442000CC556 /* Time to Iftar */,
+				8CF26A112D4894BE000CC556 /* Time to Iftar WidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -133,6 +231,14 @@
 			files = (
 				8CF26A032D489443000CC556 /* Preview Assets.xcassets in Resources */,
 				8CF26A002D489443000CC556 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF26A102D4894BE000CC556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF26A222D4894BF000CC556 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +256,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CF26A0E2D4894BE000CC556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF26A1A2D4894BE000CC556 /* Time_to_Iftar_WidgetBundle.swift in Sources */,
+				8CF26A202D4894BE000CC556 /* AppIntent.swift in Sources */,
+				8CF26A1C2D4894BE000CC556 /* Time_to_Iftar_WidgetLiveActivity.swift in Sources */,
+				8CF26A1E2D4894BE000CC556 /* Time_to_Iftar_Widget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CF26A252D4894BF000CC556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CF26A112D4894BE000CC556 /* Time to Iftar WidgetExtension */;
+			targetProxy = 8CF26A242D4894BF000CC556 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8CF26A092D489443000CC556 /* Debug */ = {
@@ -275,6 +400,7 @@
 		8CF26A0C2D489443000CC556 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -288,6 +414,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +431,7 @@
 		8CF26A0D2D489443000CC556 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -317,6 +445,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,6 +453,60 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "tetul.Time-to-Iftar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CF26A282D4894BF000CC556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55N9G92HC4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Time to Iftar Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Time to Iftar Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tetul.Time-to-Iftar.Time-to-Iftar-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CF26A292D4894BF000CC556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55N9G92HC4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Time to Iftar Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Time to Iftar Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tetul.Time-to-Iftar.Time-to-Iftar-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -347,6 +530,15 @@
 			buildConfigurations = (
 				8CF26A0C2D489443000CC556 /* Debug */,
 				8CF26A0D2D489443000CC556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF26A272D4894BF000CC556 /* Build configuration list for PBXNativeTarget "Time to Iftar WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF26A282D4894BF000CC556 /* Debug */,
+				8CF26A292D4894BF000CC556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
